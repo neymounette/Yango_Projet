@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_top_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 25px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-telechargement {
+    border-radius: 100px;
+    height: 60px;
+    border: none;
+    width: 200px;
+    color: white;
+    background-color: #ff0000;
+    font-family: Oswald;
+    transition: background-color 0.3s ease;
+}
+
+.button-telechargement:hover {
+    background-color: #ff4d4d;
+}
+
+.button-telechargement:active {
+    background-color: #b30000;
+}
+
+
+.other-countries-button {
+    border-radius: 50px;
+    width: 150px;
+    border: none;
+    color: white;
+}
+
